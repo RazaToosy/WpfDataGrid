@@ -3,18 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGrid", "WpfDataGrid\WpfDataGrid.csproj", "{30594EAB-7BF9-4D1F-8FAB-871912807FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "WpfDataGrid\UI.csproj", "{30594EAB-7BF9-4D1F-8FAB-871912807FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6C7A403A-B065-4D73-8692-0257EE59FEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{98707EF1-F4EC-4438-B477-744D2FAD285F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Debug|x64.ActiveCfg = Debug|x64
+		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Debug|x64.Build.0 = Debug|x64
+		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Release|x64.ActiveCfg = Release|x64
+		{30594EAB-7BF9-4D1F-8FAB-871912807FF0}.Release|x64.Build.0 = Release|x64
+		{6C7A403A-B065-4D73-8692-0257EE59FEB4}.Debug|x64.ActiveCfg = Debug|x64
+		{6C7A403A-B065-4D73-8692-0257EE59FEB4}.Debug|x64.Build.0 = Debug|x64
+		{6C7A403A-B065-4D73-8692-0257EE59FEB4}.Release|x64.ActiveCfg = Release|x64
+		{6C7A403A-B065-4D73-8692-0257EE59FEB4}.Release|x64.Build.0 = Release|x64
+		{98707EF1-F4EC-4438-B477-744D2FAD285F}.Debug|x64.ActiveCfg = Debug|x64
+		{98707EF1-F4EC-4438-B477-744D2FAD285F}.Debug|x64.Build.0 = Debug|x64
+		{98707EF1-F4EC-4438-B477-744D2FAD285F}.Release|x64.ActiveCfg = Release|x64
+		{98707EF1-F4EC-4438-B477-744D2FAD285F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
