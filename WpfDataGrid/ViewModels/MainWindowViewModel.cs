@@ -30,6 +30,12 @@ namespace UI.ViewModels
             }
         }
 
+        private void RaisePropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+        }
+
         public ICommand ExportCommand { get; set; }
 
         public MainWindowViewModel()
@@ -74,10 +80,6 @@ namespace UI.ViewModels
             });
         }
 
-        private void RaisePropertyChanged(string propertyName)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
+
     }
 }
