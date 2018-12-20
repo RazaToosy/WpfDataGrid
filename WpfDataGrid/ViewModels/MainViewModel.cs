@@ -14,7 +14,7 @@ using Utilities.IO;
 
 namespace UI.ViewModels
 {
-    public class MainWindowViewModel : INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -38,7 +38,7 @@ namespace UI.ViewModels
 
         public ICommand ExportCommand { get; set; }
 
-        public MainWindowViewModel()
+        public MainViewModel()
         {
             GetData();
             ExportCommand = new ButtonCommand(ExportToXML, CanExportToXml);
